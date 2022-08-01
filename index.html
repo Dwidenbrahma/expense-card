@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <main>
+    <div class="container1">
+
+      <div class="sec1">
+        <p>My balance</p>
+        <label>$921.48</label>
+      </div>
+      <div class="sec2">
+        <img src="/images/logo.svg" alt="logo-img">
+     
+      </div>
+      
+    </div>
+
+    <div class="container2">
+      <h1>Spending - Last 7 days</h1>
+
+      <canvas id="barChart"></canvas>
+
+      <hr>
+    
+      <div class="bottom">
+        
+        <div class="bot1">
+          <p>Total amount</p>
+          <h2>$478.33</h2>
+        </div>
+        <div class="bot2">
+          <p for="">+2.4%</p>
+          <h4>from last month</h4>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    </div>
+  </main>
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"> </script>
+  <script src="index.js"></script>
+</body>
+</html>

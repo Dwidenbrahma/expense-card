@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+}
+:root{
+    /* color */
+    --Softred: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+
+    --Darkbrown: hsl(25, 47%, 15%);
+    --Mediumbrown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --VeryPaleOrange: hsl(33, 100%, 98%);
+
+    --font:'DM Sans', sans-serif;
+    --font-size: 18px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: var(--Cream);    
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font);
+}
+.container1{
+    background-color: var(--Softred);
+    color: var(--VeryPaleOrange);
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    border-radius: 10px;
+
+}
+.sec1 p{
+    font-size: clamp(8px, 1vw, 10px);
+    margin-left: 10px;
+}
+.sec1 label{
+    font-size: clamp(10px, 2vw, 20px);
+    font-weight: 700;
+    margin-left: 10px;
+}
+.sec2 img{
+    width: 45%;
+    margin-left: 30px;
+    padding-left: 2%;  
+}
+.container2{
+    background-color: var(--VeryPaleOrange);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.container2 h1{
+    font-size: 1.125rem;
+    padding: 3%;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    margin: 7px;
+}
+
+.bottom p{
+    font-size: 0.75rem;
+}
+.bot1 p{
+    color: var(--Mediumbrown);
+}
+.bot2{
+    margin-top: .5rem;
+}
+.bot2 p{
+    text-align: end;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.bot2 h4{
+    color: var(--Mediumbrown);
+    font-weight: 100;
+    font-size: 0.75rem;
+
+}
+#barChart{
+    width: 100%;
+    cursor: pointer;
+}
+hr{
+    width: 87%;
+    margin: 0 auto;
+    border: 0.1px solid var(--Cream);
+    margin-top: 12px;
+}
